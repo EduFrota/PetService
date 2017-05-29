@@ -19,7 +19,7 @@ import com.google.gson.GsonBuilder;
 /**
  * Servlet implementation class PetServlet
  */
-@WebServlet("/pet/*")
+@WebServlet("/pe)
 public class PetServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	private DogService dogService = new DogService();
